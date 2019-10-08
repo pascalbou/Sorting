@@ -23,7 +23,7 @@ def binary_search(arr, target):
   high = len(arr)-1
 
   # TO-DO: add missing code
-  while (low < high):
+  while (low <= high):
     mid = math.floor((low + high)/2)
     if arr[mid] > target:
       high = mid - 1
